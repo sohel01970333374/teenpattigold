@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<attr name="fontProviderAuthority" format="string" />
+<attr name="fontProviderPackage" format="string" />
+<attr name="fontProviderQuery" format="string" />
+<attr name="fontProviderCerts" format="reference" />
+<attr name="fontProviderFetchStrategy"><enum name="async" value="1" /><enum name="blocking" value="0" /></attr>
+<attr name="fontProviderFetchTimeout" format="integer"><enum name="forever" value="-1" /></attr>
+<attr name="fontStyle"><enum name="italic" value="1" /><enum name="normal" value="0" /></attr>
+<attr name="font" format="reference" />
+<attr name="fontWeight" format="integer" />
+<attr name="imageAspectRatioAdjust"><enum name="adjust_height" value="2" /><enum name="adjust_width" value="1" /><enum name="none" value="0" /></attr>
+<attr name="imageAspectRatio" format="float" />
+<attr name="circleCrop" format="boolean" />
+<attr name="buttonSize" format="reference"><enum name="icon_only" value="2" /><enum name="standard" value="0" /><enum name="wide" value="1" /></attr>
+<attr name="colorScheme" format="reference"><enum name="auto" value="2" /><enum name="dark" value="0" /><enum name="light" value="1" /></attr>
+<attr name="scopeUris" format="reference|string" />
+<attr name="com_facebook_foreground_color" format="color" />
+<attr name="com_facebook_object_id" format="string" />
+<attr name="com_facebook_object_type"><enum name="open_graph" value="1" /><enum name="page" value="2" /><enum name="unknown" value="0" /></attr>
+<attr name="com_facebook_style"><enum name="standard" value="0" /><enum name="box_count" value="2" /><enum name="button" value="1" /></attr>
+<attr name="com_facebook_auxiliary_view_position"><enum name="bottom" value="0" /><enum name="inline" value="1" /><enum name="top" value="2" /></attr>
+<attr name="com_facebook_horizontal_alignment"><enum name="center" value="0" /><enum name="left" value="1" /><enum name="right" value="2" /></attr>
+<attr name="com_facebook_confirm_logout" format="boolean" />
+<attr name="com_facebook_login_text" format="string" />
+<attr name="com_facebook_logout_text" format="string" />
+<attr name="com_facebook_tooltip_mode"><enum name="automatic" value="0" /><enum name="display_always" value="1" /><enum name="never_display" value="2" /></attr>
+<attr name="com_facebook_preset_size"><enum name="normal" value="-3" /><enum name="large" value="-4" /><enum name="small" value="-2" /></attr>
+<attr name="com_facebook_is_cropped" format="boolean" />
+</resources>
